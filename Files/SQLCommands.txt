@@ -1,0 +1,20 @@
+/*Criar banco de dados*/
+CREATE DATABASE BancoDeDados;
+
+/*Usar BancoDeDados*/
+USE BancoDeDados;
+
+/*Criar tabela*/
+CREATE TABLE Pessoas(
+nome varchar(30),
+idade tinyint,
+sexo char(1),
+peso float,
+altura float,
+nacionalidade varchar(30)
+);
+
+/*Descrição de tabelas*/
+DESC Pessoas;
+
+/**/
