@@ -1,4 +1,4 @@
-/*Criar banco de dados*/
+##Criar banco de dados*
 CREATE DATABASE BancoDeDados;
 
 /*Usar BancoDeDados*/
@@ -17,4 +17,10 @@ nacionalidade varchar(30)
 /*Descrição de tabelas*/
 DESC Pessoas;
 
-/**/
+/*Apagar banco de dados*/
+DROP DATABASE BancoDeDados;
+
+/*Constrains*/
+CREATE DATABASE cadastro
+default character set utf8
+
