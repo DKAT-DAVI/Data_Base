@@ -7,12 +7,12 @@ Usando o MySQL e o SQL Workbench
 ## Create a database
 
 ~~~
-$ CREATE DATABASE DataBaseName;
+CREATE DATABASE DataBaseName;
 ~~~
 
 ## Use the data base
 ~~~
-$ USE BancoDeDados;
+USE BancoDeDados;
 ~~~
 ## Create a table
 ~~~
