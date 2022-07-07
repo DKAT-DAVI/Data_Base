@@ -40,7 +40,7 @@ Usando o MySQL e o SQL Workbench
 ***Hex(x)*** Hexadecimal
 
 ## SQL FUNCTIONS
-<a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp">SQL FUNCTIONS</a>
+<a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp" target="_blank" rel="external">SQL FUNCTIONS</a>
 
 # MAIN SQL COMMANDS
 
