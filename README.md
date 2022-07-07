@@ -2,7 +2,47 @@
 Aprendendo sobre a linguagem SQL <br>
 Usando o MySQL e o SQL Workbench
 
-# MAIN MySQL COMMANDS
+## RELATIONAL OPERATORS
+
+***=*** Equal \
+***!=*** Different \
+***>*** Major \
+***<*** Minor \
+***>=*** Greater equals \
+***<=*** Less equal \
+***is null*** Null field \
+***is not null*** Field not null 
+
+## LOGICAL OPERATORS
+
+***AND*** \
+***OR***  
+***NOT***
+
+## SPECIAL OPERATORS
+***IN*** \
+***BETWEEN***   
+***LIKE*** \
+***?***
+
+## ARITHMETIC OPERATORS
+***+*** Soma \
+***-*** Subtração \
+<b>*</b> Multiplicação \
+***/*** Division \
+***%*** Módulo \
+***DIV*** Integer division 
+
+## MATH FUCTIONS
+***Sqrt(x)*** Square root \
+***pow(x,y)*** Potentiation \
+***sin(x)*** Sine \
+***Hex(x)*** Hexadecimal
+
+## SQL FUNCTIONS
+<a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp">SQL FUNCTIONS</a>
+
+# MAIN SQL COMMANDS
 
 ## Create a database
 
