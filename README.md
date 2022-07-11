@@ -44,6 +44,8 @@ Usando o MySQL e o SQL Workbench
 
 # MAIN SQL COMMANDS
 
+## DDL COMMANDS
+
 ## Create a database
 
 ~~~
@@ -75,6 +77,9 @@ nationality varchar(30)
 ~~~
 DESC TableName;
 ~~~
+<br>
+
+## DML COMMANDS
 
 ## Insert values into table
 ~~~
