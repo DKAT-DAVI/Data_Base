@@ -20,7 +20,7 @@
         <b><li>
             Crie o modelo Entidade Relacionamento.
         </li></b>
-        <img alt="Modelo ER" src="ModeloER1.png"></img>
+        <img alt="Modelo ER" src="Images/ModeloER1.png"></img>
     </ol>
     <li>
         Desenhe as entidades e os relacionamentos (com devidas cardinalidades) mencionados abaixo. Obs: as entidades não precisam ter atributos somente a representação nos relacionamentos e suas cardinalidades.
