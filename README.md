@@ -1,4 +1,4 @@
-# MySQL
+<h1 align="center"><u>MySQL</u></h1>
 Learning about the SQL language 
 Using MySQL and MySQL-Workbench
 
@@ -155,7 +155,8 @@ DROP TABLE tableName;
 ~~~
 INSERT INTO TableName (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...);
-
+~~~
+~~~
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 ~~~
@@ -164,6 +165,43 @@ VALUES (value1, value2, value3, ...);
 ~~~
 SELECT column1, column2, ...
 FROM TableName;
-
+~~~
+~~~
 SELECT * FROM TableName;
+~~~
+
+## Update data in a table
+~~~
+UPDATE tableName
+SET column1 =  value1, column2 = value2, ...
+WHERE condition;
+~~~
+
+## Update data in a table with line limit
+~~~
+UPDATE tableName
+SET column1 =  value1, column2 = value2, ...
+WHERE condition
+LIMIT numberOfLines;
+~~~
+
+## Delete data in a table
+~~~
+DELETE FROM tableName
+WHERE condition
+~~~
+
+## Delete data in a table with line limit
+~~~
+DELETE FROM tableName
+WHERE condition
+LIMIT numberOfLines;
+~~~
+
+## Delete all data in a table
+~~~
+DELETE FROM tableName
+~~~
+~~~
+TRUNCATE tableName
 ~~~
