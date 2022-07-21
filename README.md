@@ -1,6 +1,25 @@
 # MySQL
-Aprendendo sobre a linguagem SQL <br>
-Usando o MySQL e o SQL Workbench
+Learning about the SQL language 
+Using MySQL and MySQL-Workbench
+
+## MAIN PRIMITIVE TYPES
+***BOOLEAN***
+***INTEGER***
+***DECIMAL(x,y)***
+***FLOAT, REAL, DOUBLE***
+***CHAR(n), VARCHAR(n)***
+***TEXT(not-case)*** and ***BLOB(case)***
+***DATE, TIME, DATETIME***
+
+## CONSTRAINS
+***NOT NULL***
+***DEFAULT***
+***UNIQUE***
+***PRIMARY KEY***
+***AUTO_INCREMENT***
+***ENUM***
+***IF EXISTS***
+***IF NOT EXISTS***
 
 ## RELATIONAL OPERATORS
 
@@ -33,13 +52,12 @@ Usando o MySQL e o SQL Workbench
 ***%*** Módulo \
 ***DIV*** Integer division 
 
-## MATH FUCTIONS
+
+## SQL FUNCTIONS
 ***Sqrt(x)*** Square root \
 ***pow(x,y)*** Potentiation \
 ***sin(x)*** Sine \
 ***Hex(x)*** Hexadecimal
-
-## SQL FUNCTIONS
 [SQL FUNCTIONS](https://www.w3schools.com/sql/sql_ref_sqlserver.asp)
 
 # MAIN SQL COMMANDS
@@ -77,7 +95,59 @@ nationality varchar(30)
 ~~~
 DESC TableName;
 ~~~
-<br>
+
+## Delete an entire table
+~~~
+DROP TABLE TableName;
+~~~
+
+## Delete a entire database
+~~~
+DROP DATABASE DataBaseName;
+~~~
+
+## Add a column to a table
+~~~
+ALTER TABLE tableName
+ADD COLUMN columnName dataType;
+~~~
+~~~
+ALTER TABLE tableName
+ADD COLUMN columnName dataType FIRST;
+~~~
+~~~
+ALTER TABLE tableName
+ADD COLUMN columnName dataType AFTER columnName;
+~~~
+
+## Delete column to table
+~~~
+ALTER TABLE tableName
+DROP COLUMN columnName;
+~~~
+
+## Modify a column in a table
+~~~
+ALTER TABLE tableName
+MODIFY COLUMN columnName dataType;
+~~~
+
+## Change column name
+~~~
+ALTER TABLE tableName
+CHANGE COLUMN tableName newTableName dataType;
+~~~
+
+## Change table name
+~~~
+ALTER TABLE tableName
+RENAME TO newTableName;
+~~~
+
+## Delete a table
+~~~
+DROP TABLE tableName;
+~~~
 
 ## DML COMMANDS
 
@@ -97,14 +167,3 @@ FROM TableName;
 
 SELECT * FROM TableName;
 ~~~
-
-## Delete an entire table
-~~~
-DROP TABLE TableName;
-~~~
-
-## Delete a entire database
-~~~
-DROP DATABASE DataBaseName;
-~~~
-
