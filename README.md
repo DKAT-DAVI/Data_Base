@@ -24,7 +24,7 @@ Using MySQL and MySQL-Workbench
 ## RELATIONAL OPERATORS
 
 ***=*** Equal \
-***!=*** Different \
+***!=*** or ***<>*** Different \
 ***>*** Major \
 ***<*** Minor \
 ***>=*** Greater equals \
@@ -39,7 +39,7 @@ Using MySQL and MySQL-Workbench
 ***NOT***
 
 ## SPECIAL OPERATORS
-***IN*** \
+***IN ()*** \
 ***BETWEEN***   
 ***LIKE*** \
 ***?***
@@ -62,7 +62,7 @@ Using MySQL and MySQL-Workbench
 
 # MAIN SQL COMMANDS
 
-## DDL COMMANDS
+<h2><abbr title="Data Definition Language">DDL</abbr> COMMANDS</h2>
 
 ## Create a database
 
@@ -149,7 +149,7 @@ RENAME TO newTableName;
 DROP TABLE tableName;
 ~~~
 
-## DML COMMANDS
+<h2><abbr title="Data Manipulation Language">DML</abbr> COMMANDS</h2>
 
 ## Insert values into table
 ~~~
@@ -159,15 +159,6 @@ VALUES (value1, value2, value3, ...);
 ~~~
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
-~~~
-
-## Select values
-~~~
-SELECT column1, column2, ...
-FROM TableName;
-~~~
-~~~
-SELECT * FROM TableName;
 ~~~
 
 ## Update data in a table
@@ -204,4 +195,15 @@ DELETE FROM tableName
 ~~~
 ~~~
 TRUNCATE tableName
+~~~
+
+<h2><abbr title="Data Query Language">DQL</abbr> COMMANDS</h2>
+
+## Select values
+~~~
+SELECT column1, column2, ...
+FROM TableName;
+~~~
+~~~
+SELECT * FROM TableName;
 ~~~
