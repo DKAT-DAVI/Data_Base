@@ -201,9 +201,165 @@ TRUNCATE tableName
 
 ## Select values
 ~~~
+SELECT * FROM TableName;
+~~~
+~~~
 SELECT column1, column2, ...
 FROM TableName;
 ~~~
+
+## Select Distinct
 ~~~
-SELECT * FROM TableName;
+SELECT DISTINCT column1, column2, ...
+FROM tableName;
+~~~
+
+## Ordered select
+~~~
+SELECT column1, column2, ...
+FROM tableName
+ORDER BY column1, column2, ...;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+ORDER BY column1, column2, ...
+DESC;
+~~~
+
+## Select Where
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE conditions;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column = condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column != condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column > condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column < condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column >= condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column <= condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column IS NULL;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column IS NOT NULL;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 = condition AND column2 = condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 = condition OR column2 = condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 IN (condition);
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 NOT IN (condition);
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 BETWEEN condition1 AND condition2;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 IN (condition);
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 LIKE 'A';
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 LIKE '%A';
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 LIKE '%A%';
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+WHERE column1 LIKE '_A';
+~~~
+
+## Agregation Functions
+~~~
+SELECT COUNT(*) FROM tableName;
+~~~
+~~~
+SELECT COUNT(column) FROM tableName;
+~~~
+~~~
+SELECT MAX(column) FROM tableName;
+~~~
+~~~
+SELECT MIN(column) FROM tableName;
+~~~
+~~~
+SELECT AVG(column) FROM tableName;
+~~~
+~~~
+SELECT SUM(column) FROM tableName;
+~~~
+## Group By
+~~~
+SELECT column1, column2, ...
+FROM tableName
+GROUP BY column;
+~~~
+
+## Having
+~~~
+SELECT column1, column2, ...
+FROM tableName
+GROUP BY columnName
+HAVING condition;
+~~~
+~~~
+SELECT column1, column2, ...
+FROM tableName
+GROUP BY columnName
+HAVING colunm > (SELECT AVG(column) FROM tableName);
 ~~~
